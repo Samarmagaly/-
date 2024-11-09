@@ -1,0 +1,266 @@
+@import url(https://fonts.googleapis.com/css2?family=Cairo:wght@200..1000&family=Edu+AU+VIC+WA+NT+Guides:wght@400..700&display=swap);
+.ClassHeader,
+.carsourclass {
+    background: linear-gradient(to right top, rgb(0, 0, 0, .9), rgba(0, 0, 0, .1)) center/cover fixed, url(/images/Untitled_design_9.jpg) center/cover fixed
+}
+
+.ClassHeader,
+.carousel,
+.view {
+    width: 100%;
+    display: flex
+}
+
+.ClassHeader,
+.ClassHeader .icon,
+.carousel,
+.view {
+    display: flex
+}
+
+.ClassHeader .menu a,
+.card-link,
+.carsourclass a {
+    text-decoration: none
+}
+
+.bun p,
+.info div .h3,
+.view p {
+    font-weight: 900
+}
+
+.ClassHeader,
+.bun p,
+.carousel,
+.carsourclass div,
+.footer-bottom {
+    text-align: center
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "IBM Plex Sans Arabic", sans-serif;
+    font-style: normal
+}
+
+.ClassHeader {
+    justify-content: space-between;
+    color: #fff;
+    height: 50px;
+    padding: 0 40px;
+    align-items: center;
+    z-index: 2
+}
+
+.ClassHeader .dropdown a:hover,
+.ClassHeader h2 {
+    color: #049b3b
+}
+
+.ClassHeader .icon i {
+    padding: 0 20px
+}
+
+.ClassHeader .icon i:hover,
+.ClassHeader .menu a:hover {
+    color: #049b3b;
+    font-size: 20px
+}
+
+.ClassHeader .menu {
+    margin-right: 150px
+}
+
+.ClassHeader .menu a {
+    color: #fff;
+    margin-right: 40px;
+    font-size: 18px;
+    transition: .5s
+}
+
+.carsourclass {
+    display: flex;
+    height: 100vh;
+    color: #fff;
+    align-items: center
+}
+
+.carsourclass div {
+    margin: auto;
+    align-items: center
+}
+
+.carsourclass a {
+    color: #fff;
+    background-color: #0c7845;
+    padding: 10px;
+    display: inline-block;
+    transition: .5s;
+    border-radius: 0 15px;
+    margin-top: 20px
+}
+
+.carsourclass a:hover,
+.info .explore button:hover,
+.view button:hover {
+    background-color: #17cc77;
+    transform: scale(1.1)
+}
+
+.info {
+    height: 30vh;
+    background-color: #7fffd4;
+    line-height: 1.2
+}
+
+.info div {
+    padding: 50px
+}
+
+.info div .h3 {
+    padding-bottom: 20px
+}
+
+.info .explore button,
+.view button {
+    background-color: #0c7845;
+    padding: 0 10px;
+    transition: transform 2.5s
+}
+
+.view {
+    justify-content: space-evenly;
+    margin-top: 30px
+}
+
+.view p {
+    font-size: 30px;
+    width: 70%
+}
+
+.footer li a:hover,
+.view button {
+    font-size: 20px
+}
+
+.view button {
+    border: none;
+    border-radius: 0 10px;
+    color: #fff;
+    height: 50px
+}
+
+.carousel {
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top: 20px
+}
+
+.card {
+    position: relative
+}
+
+.chef-img {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    width: 90px;
+    height: auto;
+    border-radius: 50%;
+    border: 2px solid #fff
+}
+
+.radio-buttons {
+    margin: 20px 0;
+    display: inline-flex
+}
+
+.radio-button {
+    display: inline-block;
+    border: 2px solid #06c857;
+    border-radius: 25px 15px;
+    padding: 5px 10px;
+    cursor: pointer;
+    color: #06c857;
+    transition: background-color .2s, color .2s
+}
+
+.form-check-input {
+    display: none
+}
+
+.form-check-input:checked+.radio-button {
+    background-color: #06c857;
+    color: #fff
+}
+
+.clear {
+    clear: both
+}
+
+.star-rating {
+    color: gold;
+    margin-bottom: 10px
+}
+
+.info .star-rating p {
+    color: #000;
+    display: inline-flex
+}
+
+.info .explore button {
+    border: none;
+    border-radius: 0 10px;
+    color: #fff;
+    font-size: 20px;
+    height: 30px
+}
+
+.bun p {
+    font-size: 30px;
+    color: #0c7845
+}
+
+.footer h2,
+.footer p,
+.footer-bottom {
+    color: #d4d7db
+}
+
+.footer {
+    background-color: #3d4350;
+    padding: 40px 0
+}
+
+.footer .social-icons i {
+    margin-left: 15px;
+    font-size: 24px;
+    color: #d4d7db;
+    transition: transform 2s
+}
+
+.footer .social-icons i:hover {
+    color: #06c857;
+    transform: scale(1.2)
+}
+
+.footer li a {
+    font-size: 18px
+}
+
+.footer h2 {
+    margin-bottom: 20px;
+    font-weight: 800
+}
+
+.footer h5 {
+    font-weight: 700
+}
+
+.footer-bottom {
+    border-top: 1px solid #dee2e6;
+    padding-top: 20px
+}

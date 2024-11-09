@@ -1,0 +1,305 @@
+body {
+    background-color: #f8f9fa;
+    direction: rtl;
+    /* Set RTL for Arabic */
+    background-color: #fffdf6;
+}
+
+.ClassHeader {
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    background: linear-gradient( to right top, rgb(0, 0, 0, 0.9), rgba(0, 0, 0, 0.1)), url(/images/Untitled_design_9.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    width: 100%;
+    height: 50px;
+    padding: 0px 40px;
+    align-items: center;
+    text-align: center;
+    /* position: fixed; */
+    z-index: 2;
+}
+
+.ClassHeader h2 a {
+    color: rgb(4, 155, 59);
+}
+
+.ClassHeader .dropdown a:hover {
+    color: rgb(4, 155, 59);
+}
+
+.ClassHeader .icon {
+    display: flex;
+}
+
+.ClassHeader .icon i {
+    padding: 0 20px;
+}
+
+.ClassHeader .icon i:hover {
+    color: rgb(4, 155, 59);
+    font-size: 20px;
+}
+
+.search-bar {
+    display: none;
+    /* Hidden initially */
+}
+
+
+/* Highlighting style for search results */
+
+.highlight {
+    background-color: yellow;
+    font-weight: bold;
+}
+
+.ClassHeader .menu {
+    margin-right: 150px;
+}
+
+.ClassHeader .menu a {
+    text-decoration: none;
+    color: white;
+    /* padding: 5px; */
+    margin-right: 40px;
+    font-size: 18px;
+    transition: ease 0.5s;
+}
+
+.ClassHeader .menu a:hover {
+    color: rgb(4, 155, 59);
+    font-size: 20px;
+}
+
+.carsourclass {
+    background: linear-gradient( to right top, rgb(0, 0, 0, 0.9), rgba(0, 0, 0, 0.1)), url(/images/Untitled_design_9.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    display: flex;
+    height: 100vh;
+    color: white;
+    align-items: center;
+    /* padding: 25px; */
+}
+
+.carsourclass div {
+    /* margin-right: 30px; */
+    /* position: fixed; */
+    margin: auto;
+    align-items: center;
+    text-align: center;
+}
+
+.carsourclass a {
+    text-decoration: none;
+    color: white;
+    background-color: rgb(12, 120, 69);
+    padding: 10px;
+    display: inline-block;
+    transition: ease 0.5s;
+    border-radius: 0 15px;
+    margin-top: 20px;
+}
+
+.carsourclass a:hover {
+    background-color: rgb(23, 204, 119);
+    transform: scale(1.1);
+}
+
+.swiper {
+    width: 100%;
+    height: 350px
+}
+
+.title {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    border: 0.2px solid gray;
+    box-shadow: 3px 0 3px #6c757d;
+    h5 {
+        font-size: 1rem;
+    }
+}
+
+.meal {
+    width: 160px;
+    height: 211px;
+    box-shadow: 0 3px 3px #00000029;
+}
+
+.card {
+    margin: 0 auto;
+}
+
+.card img {
+    height: 190px;
+    width: 190px;
+    object-fit: cover;
+}
+
+.product-card {
+    background-color: #fff;
+    border-radius: 8px;
+    overflow: hidden;
+    transition: box-shadow 0.3s ease;
+}
+
+.product-card:hover {
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.1);
+}
+
+.product-img-container {
+    position: relative;
+    height: 200px;
+}
+
+.product-img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.label {
+    position: absolute;
+    bottom: 8px;
+    right: 8px;
+    /* Adjusted for RTL */
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 3px 8px;
+    font-size: 0.85rem;
+    border-radius: 4px;
+}
+
+.taste-award {
+    position: absolute;
+    top: 8px;
+    left: 8px;
+    /* Adjusted for RTL */
+    font-size: 0.85rem;
+    padding: 5px 10px;
+    background-color: #333;
+    color: #fff;
+}
+
+.product-details {
+    padding: 15px;
+    text-align: right;
+    /* Right-align text for Arabic */
+}
+
+.product-title {
+    font-weight: bold;
+    font-size: 1.1rem;
+}
+
+.rating {
+    font-size: 0.9rem;
+    color: #FFD700;
+    /* Gold color for stars */
+}
+
+.review-count {
+    color: #6c757d;
+}
+
+.product-maker {
+    color: #6c757d;
+    font-size: 0.9rem;
+    margin-bottom: 10px;
+}
+
+.size-options label {
+    font-size: 0.85rem;
+    font-weight: bold;
+}
+
+.size-options .btn {
+    margin: 0 3px;
+}
+
+.price-actions {
+    margin-top: 10px;
+}
+
+.price del {
+    color: #999;
+    font-size: 0.85rem;
+}
+
+.discounted-price {
+    color: #dc3545;
+    font-weight: bold;
+}
+
+.action-buttons .btn {
+    margin-left: 5px;
+}
+
+.rating {
+    direction: rtl;
+    /* For RTL languages like Arabic */
+    font-size: 1.5rem;
+    color: #FFD700;
+    /* Gold color for filled stars */
+    margin-top: 5px;
+}
+
+.star {
+    color: #FFD700;
+    /* Gold for filled stars */
+    cursor: pointer;
+}
+
+.footer {
+    background-color: #3d4350;
+    padding: 40px 0;
+}
+
+.footer .social-icons i {
+    margin-left: 15px;
+    font-size: 24px;
+    color: #d4d7db;
+    transition: transform 2s;
+}
+
+.footer .social-icons i:hover {
+    color: #06c857;
+    transform: scale(1.2);
+}
+
+.footer li a {
+    font-size: 18px;
+}
+
+.footer li a:hover {
+    font-size: 20px;
+}
+
+.footer h2 {
+    margin-bottom: 20px;
+    font-weight: 800;
+    color: #d4d7db;
+}
+
+.footer h5 {
+    font-weight: 700;
+}
+
+.footer p {
+    color: #d4d7db;
+}
+
+.footer-bottom {
+    border-top: 1px solid #dee2e6;
+    padding-top: 20px;
+    text-align: center;
+    color: #d4d7db;
+}

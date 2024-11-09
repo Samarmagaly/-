@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en" dir="rtl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>عربة التسوق</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+</head>
+<style>
+    body {
+        background: linear-gradient( to right top, rgb(0, 0, 0, 0.9), rgba(0, 0, 0, 0.1)), url(/images/Untitled_design_9.jpg);
+        background-size: cover;
+        background-attachment: fixed;
+        background-position: center;
+    }
+    
+    h2 {
+        color: white;
+    }
+    
+    tr {
+        color: white;
+    }
+    
+    h2:hover {
+        color: rgb(23, 204, 119);
+    }
+    
+    tr:hover {
+        color: rgb(23, 204, 119);
+    }
+    
+    .table {
+        box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(225, 225, 225, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+    }
+    
+    button {
+        transition: transform 0.2;
+    }
+    
+    button:hover {
+        transform: scale(1.5);
+    }
+</style>
+
+<body>
+    <div class="container mt-5">
+        <h2 class="text-center mb-5 ">عربة التسوق</h2>
+        <table class="table">
+            <thead>
+                <tr class="text-white">
+                    <th>المنتج</th>
+                    <th>الكمية</th>
+                    <th>السعر</th>
+                    <th>الإجمالي</th>
+                    <th>الإجراء</th>
+                </tr>
+            </thead>
+            <tbody id="cartItems">
+                <!-- Cart items will be dynamically added here -->
+            </tbody>
+        </table>
+        <div class="d-flex justify-content-end">
+            <h3>السعر الإجمالي: <span id="totalPrice">0</span> جنيه</h3>
+        </div>
+        <button class="btn btn-danger mt-3" onclick="checkout()">إتمام الشراء</button>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.2/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="/scripts/script.js"></script>
+</body>
+
+</html>
